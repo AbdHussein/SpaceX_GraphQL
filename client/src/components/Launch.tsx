@@ -66,7 +66,7 @@ const Launch: React.FC = (props) => {
                 <li className="list-group-item">Launch Year: {launch_year}</li>
                 <li className="list-group-item">Launch Successful: <span className={clsx(launch_success ? 'text-success' : 'text-danger')}>{launch_success ? 'Yes' : 'No'}</span></li>
             </ul>
-            <h4 className="mt-5 mb-3">Rocket  Details</h4>
+            <h4 className="mt-5 mb-3">Rocket Details</h4>
             <ul className="list-group my-3">
                 <li className="list-group-item">Rocket ID: {rocket_id}</li>
                 <li className="list-group-item">Rocket Name: {rocket_name}</li>
