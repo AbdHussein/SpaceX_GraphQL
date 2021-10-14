@@ -6,7 +6,7 @@
     "server": "nodemon server.js",
     "start": "node server.js",
     "client": "npm start --prefix client",
-    "build": "npm run build --prefix client",
+    "build": "npm install && npm run build --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "license": "MIT",
