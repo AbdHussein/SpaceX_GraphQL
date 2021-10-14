@@ -60,14 +60,14 @@ const Launch: React.FC = (props) => {
                <span className='text-dark'> Mission: </span>
                 {mission_name}
             </h1>
-            <h4 className="mb-3">Launch Details</h4>
-            <ul className="list-group">
+            <h4 className="mt-5 mb-3">Launch Details</h4>
+            <ul className="list-group my-3">
                 <li className="list-group-item">Flight Number: {flight_number}</li>
                 <li className="list-group-item">Launch Year: {launch_year}</li>
                 <li className="list-group-item">Launch Successful: <span className={clsx(launch_success ? 'text-success' : 'text-danger')}>{launch_success ? 'Yes' : 'No'}</span></li>
             </ul>
-            <h4 className="my-3">Rocket  Details</h4>
-            <ul className="list-group">
+            <h4 className="mt-5 mb-3">Rocket  Details</h4>
+            <ul className="list-group my-3">
                 <li className="list-group-item">Rocket ID: {rocket_id}</li>
                 <li className="list-group-item">Rocket Name: {rocket_name}</li>
                 <li className="list-group-item">Rocket Type: {rocket_type}</li>
